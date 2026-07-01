@@ -1,0 +1,11 @@
+[project]
+name = "bio-research-tools"
+version = "0.1.0"
+description = "Repository-scoped Codex literature review skill and PubMed MCP server"
+requires-python = ">=3.12,<3.13"
+license = "Apache-2.0"
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+asyncio_mode = "auto"

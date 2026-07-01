@@ -1,0 +1,14 @@
+[mcp_servers.pubmed]
+command = "pixi"
+args = ["run", "--frozen", "pubmed-mcp"]
+env_vars = ["NCBI_EMAIL", "NCBI_API_KEY"]
+startup_timeout_sec = 10
+tool_timeout_sec = 60
+enabled = true
+required = false
+default_tools_approval_mode = "auto"
+enabled_tools = [
+  "search_articles",
+  "get_article_metadata",
+  "find_related_articles",
+]

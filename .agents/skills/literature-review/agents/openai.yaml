@@ -1,0 +1,11 @@
+interface:
+  display_name: "Literature Review"
+  short_description: "Find, verify, and synthesize scientific literature"
+  default_prompt: "Use $literature-review to produce a grounded biomedical literature synthesis."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "pubmed"
+      description: "Project-local PubMed search and article metadata server"
+      transport: "stdio"
