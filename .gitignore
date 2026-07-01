@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Node.js
+node_modules/
+
+# Bundled runtime
+/runtime/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Editor and OS metadata
+.idea/
+.vscode/
+.DS_Store
+__MACOSX/
+*:Zone.Identifier
